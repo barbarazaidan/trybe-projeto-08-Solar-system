@@ -6,7 +6,7 @@ import MissionCard from './MissionCard';
 class Missions extends React.Component {
   render() {
     const listOfMissions = missions.map(({ name, year, country, destination }) => ( // todas as info abaixo estão em uma única linha, por isso não usei {}, só dei as quebras para i lint não reclamar de tamanho e ficar mais legível
-      <li key={ name }>
+      <li key={ name } className="liDeCadaMissao">
         <MissionCard
           name={ name }
           year={ year }
@@ -15,11 +15,13 @@ class Missions extends React.Component {
         />
       </li>));
     return (
-      <div data-testid="missions">
+      <div data-testid="missions" className="divMissoes">
         <Title headline="Missões" />
-        <ul>
-          {listOfMissions}
-        </ul>
+        <section className="sectionMissoes">
+          <ul className="infoMissoes">
+            {listOfMissions}
+          </ul>
+        </section>
       </div>
     );
   }

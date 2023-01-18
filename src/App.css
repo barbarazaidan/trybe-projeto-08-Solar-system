@@ -1,3 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
+  margin: 0px;
 }
+
+.detalhesLiMissao {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.divMissoes {
+  margin-top: 50px;
+}
+
+h1 {
+  color: white;
+  font-size: 100px;
+  font-style: italic;
+  padding-top: 80px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  margin-bottom: 50px;
+}
+
+h3 {
+  color: white;
+}
+
+.tituloDaPagina {
+  margin-top:0px;
+}
+
+.imagensPlanetas {
+  width: 100%;
+}
+
+/* aqui é a ul */
+.infoMissoes { 
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: rgba(217, 217, 217, 0.2);
+  width: 1000px;
+  height: 600px;
+  overflow-y: auto;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+li {
+  color: white;
+  list-style: none;
+}
+
+.liDeCadaMissao {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  width: 400px;
+  margin: 20px 0 20px 0;
+}
+
+.paginaInteira {
+  text-align: center;
+  background-image: url("./images/background.png") ;
+}
+
+/* abraça a ul */
+.sectionMissoes {
+  display: flex;
+  justify-content: center;
+}
+
+.ulPlanetas {
+  display: flex;
+  justify-content: space-between;
+}
+
+
