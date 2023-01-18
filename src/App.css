@@ -4,8 +4,8 @@
 }
 
 .App {
-  text-align: center;
   margin: 0px;
+  text-align: center;
 }
 
 .detalhesLiMissao {
@@ -22,13 +22,13 @@ h1 {
   color: white;
   font-size: 100px;
   font-style: italic;
-  padding-top: 80px;
   margin-bottom: 100px;
+  padding-top: 80px;
 }
 
 h2 {
   color: white;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 50px;
   margin-bottom: 50px;
 }
@@ -47,15 +47,15 @@ h3 {
 
 /* aqui é a ul */
 .infoMissoes { 
+  background: rgba(217, 217, 217, 0.2);
+  border-radius: 15px;
   display:flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  background: rgba(217, 217, 217, 0.2);
-  width: 1000px;
   height: 600px;
-  overflow-y: auto;
-  border-radius: 15px;
+  justify-content: space-around;
   margin-bottom: 50px;
+  overflow-y: auto;
+  width: 1000px;
 }
 
 li {
@@ -64,16 +64,16 @@ li {
 }
 
 .liDeCadaMissao {
-  padding: 20px;
   background: rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  width: 400px;
   margin: 20px 0 20px 0;
+  padding: 20px;
+  width: 400px;
 }
 
 .paginaInteira {
-  text-align: center;
   background-image: url("./images/background.png") ;
+  text-align: center;
 }
 
 /* abraça a ul */
@@ -86,5 +86,3 @@ li {
   display: flex;
   justify-content: space-between;
 }
-
-
