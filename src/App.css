@@ -4,7 +4,7 @@
 }
 
 .App {
-  margin: 0px;
+  margin: 0;
   text-align: center;
 }
 
@@ -28,7 +28,7 @@ h1 {
 
 h2 {
   color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Trebuchet , Lucida , Arial , sans-serif;
   font-size: 50px;
   margin-bottom: 50px;
 }
@@ -38,7 +38,7 @@ h3 {
 }
 
 .tituloDaPagina {
-  margin-top:0px;
+  margin-top: 0;
 }
 
 .imagensPlanetas {
@@ -46,10 +46,10 @@ h3 {
 }
 
 /* aqui é a ul */
-.infoMissoes { 
+.infoMissoes {
   background: rgba(217, 217, 217, 0.2);
   border-radius: 15px;
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   height: 600px;
   justify-content: space-around;
@@ -66,13 +66,13 @@ li {
 .liDeCadaMissao {
   background: rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-  margin: 20px 0 20px 0;
+  margin: 20px 0;
   padding: 20px;
   width: 400px;
 }
 
 .paginaInteira {
-  background-image: url("./images/background.png") ;
+  background-image: url('./images/background.png');
   text-align: center;
 }
 
