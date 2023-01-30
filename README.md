@@ -3,49 +3,109 @@
 
 Neste projeto, desenvolvi minhas em React, com foco na criação de componentes e passagem de props.
 
-## Detalhes do projeto
+## Requisitos do projeto
 
 Confira os requisitos exigidos pela Trybe (texto extraído dos readme oficial da Trybe):
 
-1. Crie um componente chamado Header
+**1. Crie um componente chamado Header**
+
+<details><summary>Detalhes</summary>
+<p>
 
 > Crie um componente chamado Header dentro da pasta src/components. Este componente irá renderizar o título principal da página.
 
-2. Crie um componente chamado SolarSystem
+</p>
+</details>
+
+**2. Crie um componente chamado SolarSystem**
+
+<details><summary>Detalhes</summary>
+<p>
 
 > Crie um componente chamado SolarSystem dentro da pasta src/components.
 
-3. Crie um componente chamado Title
+</p>
+</details>
+
+**3. Crie um componente chamado Title**
+
+<details><summary>Detalhes</summary>
+<p>
 
 > Crie um componente chamado Title dentro da pasta src/components.
 
-4. Renderize o componente Title dentro do componente SolarSystem
+</p>
+</details>
+
+**4. Renderize o componente Title dentro do componente SolarSystem**
+
+<details><summary>Detalhes</summary>
+<p>
 
 > Renderize o componente Title dentro do componente SolarSystem.
 
-5. Crie um componente chamado PlanetCard
+</p>
+</details>
+
+**5. Crie um componente chamado PlanetCard**
+
+<details><summary>Detalhes</summary>
+<p>
 
 > Crie um componente chamado PlanetCard dentro da pasta src/components.
 
-6. Renderize uma lista com os planetas do Sistema Solar
+</p>
+</details>
+
+**6. Renderize uma lista com os planetas do Sistema Solar**
+
+<details><summary>Detalhes</summary>
+<p>
 
 > Renderize uma lista com os planetas do Sistema Solar dentro do componente SolarSystem.
 
-7. Crie um componente chamado Missions.
+</p>
+</details>
+
+**7. Crie um componente chamado Missions**
+
+<details><summary>Detalhes</summary>
+<p>
 
 > Crie um componente chamado Missions dentro da pasta src/components.
 
-8. Renderize o componente Title dentro do componente Missions.
+</p>
+</details>
+
+**8. Renderize o componente Title dentro do componente Missions**
+
+<details><summary>Detalhes</summary>
+<p>
 
 > Renderize o componente Title dentro do componente Missions.
 
-9. Crie um componente chamado MissionCard.
+</p>
+</details>
+
+**9. Crie um componente chamado MissionCard**
+
+<details><summary>Detalhes</summary>
+<p>
 
 > Crie um componente chamado MissionCard dentro da pasta src/components.
 
-10. Renderize uma lista com as missões espaciais
+</p>
+</details>
+
+**10. Renderize uma lista com as missões espaciais**
+
+<details><summary>Detalhes</summary>
+<p>
 
 > Renderize uma lista com as missões espaciais dentro do componente Missions.
+
+</p>
+</details>
 
 ## Observações sobre as pastas
 
